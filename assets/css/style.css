@@ -91,8 +91,9 @@ h1 {
 }
 
 .Portfolio {
-    margin: 50px 250px 50px 500px;
-    height: 400px;
+    margin: 50px 400px 50px 450px;
+    height: 465px;
+    width: 550px;
     float: left;
     max-width: 960px;
     background: white;
@@ -144,14 +145,14 @@ textarea {
 }
 
 /*portfolio page css*/
-.placeholder {
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
+h1 {
+    float: left;
 }
-
-#img1 {
+.coming-soon {
+    background: #4aaaa5;
+    padding: 20px 10px 20px 10px;
     position: absolute;
-    top: 50px;
-    left: 20px;
+    float: left;
+    margin-top: 60px;
+    
 }
