@@ -1,11 +1,13 @@
 body {
     background: #eee;
+    margin: 0;
 }
 .topbar {
     background: white;
     width: 100%;
     height: 100px;
-    margin: 0px;
+    margin-top: -15px;
+
 }
  .small-container { 
     max-width: 960px;
@@ -19,13 +21,28 @@ body {
 li {
 float: right;
 margin: 5px;
-padding: 5px;
+padding: 8px;
 list-style: none;
 
 }
 
 ul {
-    margin-right: 100px;
+    margin-right: 300px;
+    padding-top: 20px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    color: gray;
+}
+ul li a:hover {
+    font-size: 18px;
+    color: black;
+}
+
+.navline {
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
 }
 
 
@@ -34,30 +51,48 @@ ul {
     margin-left: 300px;
     background:#4aaaa5;
     color: white;
-    padding: 35px 20px 40px 20px;
+    padding: 34px 20px 40px 20px;
     position: absolute;
-    top: 0px;
-    font-size: 25px;
+    top: -21px;
+    font-size: 22px;
     
 }
 
 h1 {
     float: left;
     color:#4aaaa5;
+    margin-left: 8px;
 }
 
 .image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     float: left;
-    margin: 15px;
+    margin: 2px 12px 5px 10px;
 }
 .imgp {
     float: left;
 }
 
-section {
+.index {
     margin: 50px 300px 50px 300px;
+    height: 400px;
+    float: left;
+    max-width: 960px;
+    background: white;
+}
+.contact {
+    margin: 50px 400px 50px 450px;
+    height: 465px;
+    width: 550px;
+    float: left;
+    max-width: 960px;
+    background: white;
+}
+
+.Portfolio {
+    margin: 50px 250px 50px 500px;
+    height: 400px;
     float: left;
     max-width: 960px;
     background: white;
@@ -72,4 +107,51 @@ footer {
     padding-top: 30px;
     color: white;
     font-size: 12px;
+    border-top: solid #4aaaa5 8px;
+}
+
+.text {
+    color: grey;
+    line-height: 30px;
+    margin: 0px 15px 2px 15px;
+}
+form {
+    
+    padding: 60px 100px 30px 10px;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+.name-box {
+    text-align: left;
+    display: block;
+}
+.btn {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    float: left;
+}
+
+/*portfolio page css*/
+.placeholder {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+#img1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
 }
