@@ -1,41 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            basic portfolio site
-        </title>
-        <link rel="stylesheet" href="./assets/css/MediaPortfolioStyle.css" type="text/css" />
-    </head>
-    <body>
-        <header class="topbar">
-            <div class="smaller-container">
-                <p id="name">Leland Capps</p>
-                    <ul>
-                        <li><a href="index.html">About</a></li>
-                        <li class="navline"><a href="contact.html">Contact</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </ul>
-            </div>
-        </header>
-        
-        <section class ="Portfolio" ">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/portfolio.css" >
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="box">
             <h1>Portfolio</h1>
-            <div >
-                <!-- <p class="coming soon" ><a href="https://github.com/Lcapps56/Hangman">hangman</a></p> -->
-                <a href="https://lcapps56.github.io/Trivia-game" class="coming-soon">Trivia Game</a>      
-                <a href="https://github.com/Lcapps56/Bamazon" class="coming-soon">Bamazon</a>               
-                <a href="https://blooming-cliffs-28442.herokuapp.com/" class="coming-soon">FriendFinder</a>
-                <!-- <a href="https://lcapps56.github.io/train-schedular/" class="coming-soon">Train schedualr</a>                -->
-                <a href="https://github.com/Lcapps56/Liri" class="coming-soon">Liri</a>
-                <a href="https://lcapps56.github.io/Trivia-game" class="coming-soon">Giphy</a>                
-                <!-- <a href="https://lcapps56.github.io/food4thought/" class="coming-soon">food 4 thought</p></a> -->
-                <a href="https://github.com/Lcapps56/Burger" class="coming-soon">Burger</a>                
-
-            </div>
-        </section>
-
-        <footer>
-            copyright&copy;
-        </footer>
-    </body>
+        </div>
+        <div id="links">
+            <a href="index.html"> <img id="home" src="./images/25694.png" alt=""></a>
+            <a href="#">Resume</a>
+            <a href="portfolio.html">View portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <section id="projects">
+        <div class="project">
+            <h2 class="title">Hangman</h2>
+            <p class="description">Hangman game built with HTML, CSS, and javascript</p>
+            <a href="https://github.com/Lcapps56/Hangman" class="codeL">View code</a>
+            <a href="https://lcapps56.github.io/Hangman/" class="deployed">View App</a>
+        </div>
+        <div class="project">
+            <h2 class="title">Train-Schedular</h2>
+            <p class="description">Simple Train-Schedular made with javascript, moment.js, firebase</p>
+            <a href="https://github.com/Lcapps56/train-schedular" class="codeL">View code</a>
+            <a href="https://lcapps56.github.io/train-schedular/" class="deployed">View App</a>
+        </div>
+        <div class="project">
+            <h2 class="title">food4thought</h2>
+            <p class="description">Input ingredients and see the possible recipes. <br>
+                Made with Bootstrap, jQuery, Ajax, APIs, Google charts.</p>
+            <a href="#" class="codeL">View code</a>
+            <a href="https://lcapps56.github.io/food4thought/" class="deployed">View App</a>
+        </div>
+        <div class="project">
+            <h2 class="title">Hangman</h2>
+            <p class="description">Hangman game built with HTML, CSS, and javascript</p>
+            <a href="#" class="codeL">View code</a>
+            <a href="#" class="deployed">View App</a>
+        </div>
+    </section>
+</body>
 </html>

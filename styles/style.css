@@ -1,0 +1,74 @@
+/* header css */
+#box{
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 100px 290px 0px 290px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: Bold;
+    line-height: 30px;
+}
+#box h1{
+    font-size: 90px;
+}
+#box h3{
+    font-size: 30px;
+}
+#sentence{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400px;
+}
+#images{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#home {
+    height: 40px;
+    width: 65px;
+}
+#image1 {
+    height: 65px;
+    width: 90px;
+}
+#image2{
+    height: 65px;
+    width: 130px;
+}
+#links{
+    text-align: center;
+    margin: 50px 500px;
+}
+#links a{
+    border: solid black 1px;
+    padding: 5px 12px;
+    margin: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300px;
+}
+/* section styles */
+section{
+    text-align: center;
+    margin: 50px 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* footer styles */
+footer{
+    background-color: black;
+    color: white;
+}
+#Fstuff{
+    padding: 10px;
+    margin-left: 100px;
+}
+h6{
+    display: block;
+}

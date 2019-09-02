@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            basic portfolio site
-        </title>
-        <link rel="stylesheet" href="./assets/css/MediaContactStyle.css" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header class="topbar">
-            <div class="smaller-container">
-                <p id="name">Leland Capps</p>
-                    <ul>
-                        <li><a href="index.html">About</a></li>
-                        <li class="navline"><a href="contact.html">Contact</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </ul>
-            </div>
-        </header>
-        
-        <section class ="contact">
-            <h1>Contact</h1>
-            <div class="clearfix">
-                <form action="/action_page.php">
-                    <p class="name-box">Name:</p>
-                    <input name="firstname" type="text">
-                    <br>
-                    <p class="email">Email:</p>
-                    <input name="firstname" type="text">
-                    <p class="message">Send a Message</p>
-                    <textarea name="message" rows="10" cols="30"></textarea>
-                    <input class="btn" type="submit">
-                </form>
-            </div>
-        </section>
+<html lang="en">
 
-        <footer>
-            copyright&copy;
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link href="styles/contactStyles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="box">
+            <h1>Portfolio</h1>
+        </div>
+        <div id="links">
+            <a href="index.html"> <img id="home" src="./images/25694.png" alt=""></a>
+            <a href="#">Resume</a>
+            <a href="portfolio.html">View portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <section class="contact">
+        <div class="clearfix">
+            <form action="/action_page.php">
+                <p class="name-box">Name:</p>
+                <input class="name-box" name="firstname" type="text">
+                <br>
+                <p class="email">Email:</p>
+                <input class="email" name="firstname" type="text">
+                <p class="message">Send a Message</p>
+                <textarea class="message" name="message" rows="10" cols="30"></textarea>
+                <input class="btn" type="submit">
+            </form>
+        </div>
+    </section>
+
+</body>
+
 </html>

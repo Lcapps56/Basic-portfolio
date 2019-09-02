@@ -1,0 +1,48 @@
+#box{
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 30px 350px 0px 350px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: Bold;
+    line-height: 15px;
+}
+#box h1{
+    font-size: 60px;
+}
+#links{
+    text-align: center;
+    margin-top: 30px;
+}
+#links a{
+    border: solid black 1px;
+    padding: 5px 12px;
+    margin: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300px;
+}
+#home {
+    height: 40px;
+    width: 65px;
+}
+/* section styles */
+#projects{
+    padding: 20px;
+    margin: 0px 200px;
+}
+.project{
+    border: solid black 1px;
+    margin: 30px;
+    padding: 10px;
+}
+.deployed, .codeL {
+    border: solid black 1px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    display: in-line;
+}
+
