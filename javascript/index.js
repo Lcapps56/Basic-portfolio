@@ -1,3 +1,4 @@
+
 var skills = ["SQL Database", "jquery", "MongoDB", "Express", "APIs", "Bootstrap", "Node.js", "Handlebars", "React.js", "Github", "Wordpress", "Adobe software", "UI/UX design"]
 myFunction()
 
