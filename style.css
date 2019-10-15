@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url("./images/city-dark-dawn-248159.jpg");
+    /* background-image: url("../architecture-australia-building-374870\ \(1\).jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 750px; 
+    /* background: lightblue; */
+    text-align: center;
+}
+#headtext {
+    padding: 250px;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#headtext h1 {
+    font-size: 120px;
+    margin: 0px;
+}
+#headtext h2 {
+    margin: 0px;
+    margin-bottom: 20px;
+    
+}
+#headtext button {
+    background: none;
+    border: solid 1px white;
+    color: white;
+    padding: 3px 7px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* END HEADER STYLE */
+
+/* about section style */
+section{
+    background: #851540;
+    color: #c8ece9;
+    padding: 90px;
+    padding-top: 60px;
+    height: 385px;
+    font-family: 'Roboto', sans-serif;
+    /* position: absolute; */
+}
+#info {
+    width: 100%;
+    /* margin: 0px 20px 10px 50px; */
+    float: left;
+
+}
+section h1 {
+    font-size: 60px;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: white;
+    border-bottom: solid white 1px;
+}
+section p {
+    font-size: 23px;
+    margin: 5px;
+}
+#me{
+    padding-top: 60px;
+    margin-left: 20px;
+    height: 300px;
+    width: 500px;
+}
+/* end about styles */
+
+/* Projects style */
+.clearfix{
+    overflow: auto;
+}
+#Projects{
+    /* margin: 50px; */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    /* position: fixed; */
+    top: 0px;
+    background: #273d46;
+    color: #474747;
+}
+.project{
+    border: solid black 1px;
+    margin: 60px;
+    padding: 20px;
+    padding-left: 20px;
+    background: #8faeb9;
+
+}
+.informational{
+    margin: 10px;
+    margin-left: 50px;
+    padding: 0px;
+    float: left;
+    width: 40%;
+}
+.Name{
+    margin: 0px;
+}
+.summary{
+   padding-left: 20px;
+   font-size: 16px;
+}
+.tech{   
+
+}
+.techList{
+    padding-left: 20px;
+}
+.other{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+img{
+    height: 275px;
+    width: 500px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.code{
+    background: none;
+    border: solid black 1px;
+}
+.app{
+    border: solid black 1px;
+    background: none;
+}
+/* end project styles */
+
+.contact{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    padding: 0px;
+}
+#sticky{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: rgb(255, 255, 255, .1);
+    margin-bottom: 5px;
+}
+#sticky p {
+    margin: 2px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}

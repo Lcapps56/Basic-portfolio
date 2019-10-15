@@ -1,58 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div id="sticky">
+        <a target="_blank" href="https://github.com/Lcapps56"><img class="contact" src="./images/github.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/leland-capps-935296188/"><img class="contact" src="./images/linkedin.png"></a>
+        <a target="_blank" href="mailto: lcapps5600@gmail.com"><img class="contact" src="./images/mail.png"></a>    
+        <p>lcapps5600@gmail.com</p>
+        <p>(803)818-8606</p>
+    </div>
     <header>
-        <div id="box">
-            <h1>Leland Capps</h1>
-            <h3>A Full-stack web developer</h3>
-        </div>
-        <div id="sentence"> 
-            <p>I have experience with <span id="here">SQL Database</span></p>
-        </div>
-        <div id="images">
-            <a href="https://github.com/Lcapps56"><img id="image1" src="images/github.png"></a>
-            <a href="https://www.linkedin.com/in/leland-capps-935296188/"><img id="image2" src="images/linked_in.png"></a>
-        </div>
-        <div id="links">
-            <a href="#">Resume</a>
-            <a href="portfolio.html">View portfolio</a>
-            <a href="contact.html">Contact</a>
+        <div id="headtext">
+            <h1 id="name">Leland Capps</h1>
+            <h2 id="cap">A Full-Stack Web Developer</h2>
+            <a href="#Projects"><button id="viewB">View Portfolio</button></a>
         </div>
     </header>
-    <section>
-        
-        <p>I got into computers aroung my junior year of high school and began teaching myself code my senior year. 
-            As I learned more and more things about how it all worked I got more and more intrested in it.
-            I love the challenge and the puzzle aspect of coding. I started with Python and picked it up fairly quickly and developed a solid foundation of 
-            coding basics and concepts(data types, loops, functions, object-oriented programming, etc). After Python I went to HTML and CSS. By the time I 
-            started classes for college (was going for an Associates in computer technology) I knew all 
-            the things they were teaching. The classes were too slow, too generic, too boring, and it became 
-            obvious that school was not for me. So I quit school and began freelancing Web design, Graphic design, 
-            and building Wordpress sites to pay rent.</p>
+    <section id="about">
+        <div id="info">
+            <h1>About</h1>
+            <p>I began self-learning code my senior year of high school and quickly became obsessed with it. I love 
+                the challenge and the puzzle aspect of coding. I started with Python and picked it up fairly quickly 
+                and developed a solid foundation of coding basics(variables, arrays, logic). After Python I started 
+                HTML and CSS. By the time I started classes for college (was going for an Associates in computer technology) 
+                I knew all the things they were teaching. The classes were too slow, too generic, too boring, and 
+                it became obvious that school was not for me. So I quit school and began freelancing Web design, Graphic 
+                design, and Wordpress sites to pay rent. I learned more valuable skills during this period than I did 
+                in school.(time-management, business communication skills, discipline, determination)</p>
 
-            <p>I recently completed a coding bootcamp at UNC Charlotte and am looking for job. I want to find a 
-            full-time job, preferably with a company that builds Web applications. Here, you can see my resume, a link to my Github, 
-            Linkedin, and some of the projects ive done in the past.
-            If you have any questions, send me a message and i'll get back to ASAP. Thanks for reading.</p>
+                <p>I finished a coding bootcamp at UNCC this past september and am currently looking for a full-time job, 
+                preferably with a company that builds web applications and works on something different every other month
+                 or so. On my profile you will see some of the skills I gained from the Bootcamp as well as some that I 
+                 have picked up in the past. Please checkout my Github and my Personal portfolio site (both linked in 
+                 contact information) to see a full list of my skills and capabilities. If you have any questions, 
+                 send me a message and i'll get back to ASAP. Thanks for reading.</p>
+        </div>
+        <!-- <img id="me" src="images/IMG_0594.JPG" alt="picture of me"> -->
     </section>
-    <!-- <footer>
-        <div id="Fstuff">
-            <h5>Leland Capps</h5>
-            <h5>A Full-stack web developer</h5>
-            <h5>Linkedin</h5>
-            <h5>Github</h5>
-            <h5>Email</h5>
-            <h5>Phone</h5>
-         </div>
-    </footer> -->
-    <script src="javascript/index.js"></script>
+    <div id="Projects" class="clearfix">
+        <div class="project clearfix">
+            <div class="informational">
+                <h1 class="Name">Food 4 Thought</h1>
+                <p class="summary">Food 4 thought is an app that allows users to input any ingrediants
+                    and see a list of possible recipes for those ingrediants. Users have the ability
+                    to choose health/diet options, view the recipe instructions, save the recipe
+                    as a favorite, and view the Macro nutrition for any of the recipes.</p>
+                <h1 class="tech">Technologies used</h1>
+                <p class="techList">HTML/CSS, APIs, AJAX, Jquery, Javascript</p>
+            </div>
+            <div class="other">
+                <img src="images/Annotation 2019-10-08 184751.png">
+                <div class="buttons">
+                    <button class="code"><a target="_blank" href="https://github.com/Lcapps56/food4thought">View
+                            Code</a></button>
+                    <button class="app"><a target="_blank" href="https://lcapps56.github.io/food4thought/">View
+                            App</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project clearfix">
+            <div class="informational">
+                <h1 class="Name">Hangman</h1>
+                <p class="summary">Hangman is a popular game where the player guess letters of a mystery word.
+                    When the player guesses a correct letter, it shows in the wor. When the user guess an incorrect
+                    letter, the player loses a life.
+                </p>
+                <h1 class="tech">Technologies used</h1>
+                <p class="techList">HTML/CSS, Jquery, Javascript</p>
+            </div>
+            <div class="other">
+                <img src="./images/Annotation 2019-10-09 134750.png">
+                <div class="buttons">
+                    <button class="code"><a target="_blank" href="https://github.com/Lcapps56/Hangman">View
+                            Code</a></button>
+                    <button class="app"><a target="_blank" href="https://lcapps56.github.io/Hangman/">View
+                            App</a></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project clearfix">
+            <div class="informational">
+                <h1 class="Name">LiftBuddy</h1>
+                <p class="summary">An app that allows users to track their workouts over time, or create and save
+                    their own workout routine. A calendar will highlight specific dates blue based on if that date has
+                    a workout saved to it. The user can click any of the blue dates to view the workout of that date.
+                    The other feature is one that allows the user to create and save their own workout routines.
+                </p>
+                <h1 class="tech">Technologies used</h1>
+                <p class="techList">HTML/CSS, Bootstrap, jquery, Javascript, mySQL, Express, Sequlize, Node.js</p>
+            </div>
+            <div class="other">
+                <img src="./images/Annotation 2019-10-11 145702.png">
+                <div class="buttons">
+                    <button class="code"><a target="_blank" href="https://github.com/Lcapps56/liftBuddyConcept">View
+                            Code</a></button>
+                    <button class="app"><a target="_blank" href="https://liftbuddyconcept.herokuapp.com/">View
+                            App</a></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project clearfix">
+            <div class="informational">
+                <h1 class="Name">Krystal Klear Aquariums</h1>
+                <p class="summary">A website/app built for a client. He has an aquarium cleaning/installment
+                    services.The
+                    website portion has a Home, Services, and a Contact page. The "App" portion is for the business
+                    owner. He
+                    logs on with his username and password, and is then directed to his dahsboard where he can view all
+                    his clients info.
+                    Such as their Name, Phone, Email, what they purchased, etc.
+                </p>
+                <h1 class="tech">Technologies used</h1>
+                <p class="techList">MERN-stack, HTML/CSS, React.js, Javascript, MongoDB, Mongoose, Express, Node, </p>
+            </div>
+            <div class="other">
+                <img src="./images/Annotation 2019-10-11 143349.png">
+                <div class="buttons">
+                    <button class="code"><a target="_blank"
+                            href="https://github.com/Lcapps56/Krystal-Klear-Aquariums">View Code</a></button>
+                    <button class="app"><a target="_blank" href="http://www.krystalklearaquariums.com/">View
+                            App</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project clearfix">
+            <div class="informational">
+                <h1 class="Name">Clicky Game</h1>
+                <p class="summary">A game of memory and clicking. In order to win, each image must be clicked only once.
+                    If any image is clicked twice, the game restars and you get a loss added to your total score.
+                </p>
+                <h1 class="tech">Technologies used</h1>
+                <p class="techList">HTMl, CSS, Javascript, React.js</p>
+            </div>
+            <div class="other">
+                <img src="./images/Annotation 2019-10-14 142123.png">
+                <div class="buttons">
+                    <button class="code"><a target="_blank" href="https://github.com/Lcapps56/Music-pad">View
+                            Code</a></button>
+                    <button class="app"><a target="_blank" href="https://clicky-game-lc.herokuapp.com">View
+                            App</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project clearfix">
+            <div class="informational">
+                <h1 class="Name">Music beats</h1>
+                <p class="summary">A simple, but fun app that allows users to create musical beats by clicking on
+                    the colored pads on the bottom of the screen.
+                </p>
+                <h1 class="tech">Technologies used</h1>
+                <p class="techList">HTMl, CSS, Javascript</p>
+            </div>
+            <div class="other">
+                <img src="./images/Annotation 2019-10-14 141638.png">
+                <div class="buttons">
+                    <button class="code"><a target="_blank" href="https://github.com/Lcapps56/Music-pad">View
+                            Code</a></button>
+                    <button class="app"><a target="_blank" href="https://lcapps56.github.io/Music-pad/">View
+                            App</a></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
