@@ -44,7 +44,7 @@ section{
     color: #c8ece9;
     padding: 90px;
     padding-top: 60px;
-    height: 385px;
+    height: 395px;
     font-family: 'Roboto', sans-serif;
     /* position: absolute; */
 }
@@ -139,20 +139,32 @@ img{
 .contact{
     height: 50px;
     width: 50px;
-    margin: 15px;
+    margin: 0px 15px;
     padding: 0px;
 }
 #sticky{
     text-align: center;
+    float: right;
+    /* margin-top:5px; */
+    z-index: 1;
+    margin-bottom: -80px;
+    
+    z-index: 1;
+    /* background: #851540; */
+    /* margin-bottom: 5px; */
+}
+.sticky{
     position: fixed;
     top: 0;
-    right: 0;
-    z-index: 1;
-    background: rgb(255, 255, 255, .1);
-    margin-bottom: 5px;
+    right: 0;    
+    background: rgb(255, 255, 255, .2);
+}
+#sticky div {
+    margin: 0px;
 }
 #sticky p {
     margin: 2px;
+    margin-bottom: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
