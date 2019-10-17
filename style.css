@@ -168,3 +168,46 @@ img{
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+@media only screen and (max-width: 400px) {
+    header {
+        height: 550px;
+    }
+    #headtext{
+        padding: 0px;
+        padding-top: 50px;
+    }
+    #about{
+        padding: 10px;
+        text-align: center;
+    }
+    #info{
+        padding-top: 70px;
+        text-align: center;
+    }
+    
+    #about{
+        height: 1200px;
+    }
+    .project{
+        padding: 10px;
+        margin: 10px;
+    }
+    .summary{
+        margin: 0px;
+        padding: 0px;
+        width: 150px;
+    }
+    .summary p{
+        margin: 2px;
+    }
+    img {
+        height: 150px;
+        width: 290px;
+    }
+    .informational{
+        width: 90%;
+        margin: 10px;
+    }
+}
