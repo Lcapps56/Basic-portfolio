@@ -28,14 +28,19 @@ header {
     margin-bottom: 20px;
     
 }
+#res{
+    margin-left: 10px;
+}
 #headtext button {
     background: none;
     border: solid 1px white;
     color: white;
     padding: 3px 7px;
     font-size: 20px;
+    
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 /* END HEADER STYLE */
 
 /* about section style */
